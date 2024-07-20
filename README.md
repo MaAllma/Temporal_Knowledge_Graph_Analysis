@@ -1,5 +1,8 @@
 # Visual Analytics Project SS24
 
+## Vast Challenge 2024
+Our answers for challenge 3 can be found [here](Vast_Challenge_Answers_RTPU-Sohns_MC3.md)
+
 ## Getting started
 
 First clone the repository
