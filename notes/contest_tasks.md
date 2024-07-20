@@ -82,21 +82,6 @@ If we take a look at the time after the change, we can see that all owners separ
 ![task_03_prochazka_03b.png](challenge_graphics/task_03_prochazka_03b.png)
  All these changes happen one month after the SouthSeafood incident.
 
-```
-To illustrate the influence of a company's network over time, we provide a heatmap of people with the most company acquisitions and observe that the number of acquisitions increases over time. 
-Since, we label all nodes in the graphlayout that occur in one of our tab-views, we discover that all these companies eventually converge to a single network.
-In the last year the owners acquire the same company and get rid of two of their companies. All these changes happen one month after the SouthSeafood incident.
-
-- Search for influence in company merges by clicking on Brenna Price since it shows that the influence of this network increases over time with more and more acquisitions
-    - heatmap = look there
-    - We find as expected the very large connected component
-    - large component with hover from heatmap 
-    - Scrolling over the last line, shows that Polak Prochazka is always added in 2035 => select in graph as it is marked with a label
-    - hover last line 
-    - After Focus on Last there is very clear view with neighborhood size 2
-    - Clicking in kde before or after the peak shows a change with the Stephens-Lopez+ Pena, Castillo and Phillips company (labeled due to this change) 
-    - Polak Prochazaka is only founded in 2035 and immediatly used as a new major company => merge shows people switching to another illegal company after Southseafood has been discovered
-  ```
 ## Task 4
 > Identify the *network associated with SouthSeafood Express Corp* and **visualize how this network and competing businesses change as a result of their illegal fishing behavior**. Which *companies benefited from SouthSeafood Express Corp legal troubles*? Are there *other suspicious transactions that may be related to illegal fishing*? Provide visual evidence for your conclusions.
 > 
@@ -116,18 +101,3 @@ However, there are even more anomalies in this network
 ![task_04_southseafood_02c_03.png](challenge_graphics/task_04_southseafood_02c_03.png)
 
 Consequently, this entire network appears suspicious.
-
-
-```
-- South Seafood is pre-2035 connected via a single intermediate company (AguaLeska) to the main part of the connected compnent
-   - In the kde plot we can see that there is a peak of creations and deletions at roughly the same time and in the graph plot we see that several new edges will be created
-   - Switching after this peak, we see clearly how the edge between Southseafood and AguaLeska is removed whereas a less direct way is chosen to the main component
-   - We hypotheize that Southseafood is trying to hide their continued illegal behavior behind the other newly created phantom companies (for which the hover tooltip shows when they are created)
-   - task_04_southseafood_01.png and task_04_southseafood_01a.png
-direkt oben eintippen, neighbor erhöhen, weiter expandieren
-"da sind auch verdächtige Personen die wir vorher gefilter haben tauchen dort auf"
-"Family Relations sind selten"
-"viel viele Zyklen -> etwas verschleiern, Briefkastenfirmen?"
-- "There are multiple anomalies in this network: many cycles, some with family relations, people benefitting from multiple companies with little or no workers, people working for multiple companies and the company switch associated with SouthSeafood. Therefore this whole network seems suspicious."
-- "You can see how the connection from SouthSeafood to Stiching-Marine is replaced by new edges and shell companies, while the direct path is deleted. We date this switch in the kde plot to may 2035."
-```
