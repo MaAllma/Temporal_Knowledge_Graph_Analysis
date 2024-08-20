@@ -20,7 +20,7 @@ created). (You should now have copied `/data/mc3.json` and `/data/Oceanus Inform
 
 Then setup a conda environment for the project:
 ```
-conda create -n vis_proj python=3.11 tqdm numpy scipy pandas xarray matplotlib seaborn bokeh numba scikit-learn=1.4.2  conda-forge::networkx python-graphblas  cuda-version=12.2 -c conda -c conda-forge -c pytorch -c nvidia
+conda create -n vis_proj python=3.11 tqdm numpy scipy pandas xarray matplotlib seaborn bokeh numba scikit-learn=1.4.2  conda-forge::networkx python-graphblas -c conda -c conda-forge -c pytorch -c nvidia
 conda activate vis_proj
 ```
 and use it as appropiate for your IDE.
