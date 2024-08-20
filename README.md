@@ -5,7 +5,7 @@ This is the repository for our submission to the visualization challenges posed 
 ## Vast Challenge 2024
 [![YouTube](http://i.ytimg.com/vi/pOLVmvl17jM/hqdefault.jpg)](https://www.youtube.com/watch?v=pOLVmvl17jM)
 
-Our answers for challenge 3 can be found [here](Vast_Challenge_Answers_RTPU-Sohns_MC3.md) and our submission video [here](https://youtu.be/pOLVmvl17jM).
+Our answers for challenge 3 can be found [here](Vast_Challenge_Answers_MC3.md) and our submission video [here](https://youtu.be/pOLVmvl17jM).
 ## Getting started
 
 First clone the repository
