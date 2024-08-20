@@ -11,7 +11,7 @@ Our answers for challenge 3 can be found [here](Vast_Challenge_Answers_MC3.md) a
 First clone the repository
 ```
 cd your_parent_folder
-git clone https://gitlab.rhrk.uni-kl.de/iselborn/visual-analytics-project-ss24.git
+git clone https://github.com/MaAllma/Temporal_Knowledge_Graph_Analysis.git
 ```
 
 Now download the [VAST MC3-data](https://vast-challenge.github.io/2024/MC3.html) and copy `mc3.json` and the 
