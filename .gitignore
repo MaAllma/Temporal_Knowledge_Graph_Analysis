@@ -1,0 +1,6 @@
+.idea/*
+
+data/*
+interactive_plots/*.html
+*.pyc
+*.html
